@@ -17,6 +17,14 @@ void main() {
   bookTicket("yogesh", seatNumber: 2, mealPreference: "Pizza");
 
   // 6
+  calculateDiscount(price: 20550, discount: 20);
+
+  // 7
+  String userName = generateUsername("yogesh", firstName: "yuva");
+  print(userName);
+
+  // 8
+  sheduleMeeting(meetingData: "30-09-2025", duration: "1hr", remainder: false);
 }
 
 // 1 . Define a function in Dart that calculates the area of a rectangle. Use named parameters length and width, where both parameters are required.
@@ -63,5 +71,43 @@ void bookTicket(
   print("Food : $mealPreference");
 }
 
+// 6. Create a Dart function calculateDiscount that:
+//        Takes a required named parameter price.
+//        Has an optional named parameter discountRate, defaulting to 10%.
+//        Returns the final price after applying the discount.
 
-// 6. 
+double calculateDiscount({required double price, double discount = 10}) {
+  double split = price / discount;
+  double discountValue = price - split;
+  print(discountValue.toStringAsFixed(2));
+  return 0.0;
+}
+
+// 7. Write a function generateUsername that:
+//      Takes a required positional parameter firstName.
+//      Has an optional positional parameter lastName.
+//      Has a named parameter suffix, defaulting to "_user".
+//      Returns a formatted username.
+
+String generateUsername(
+  String lastName, {
+  required String firstName,
+  String suffix = "_user",
+}) {
+  return "$firstName$lastName$suffix";
+}
+
+// 8. Create a function scheduleMeeting that:
+//        Takes a required named parameter meetingDate.
+//        Has an optional named parameter duration, defaulting to 30 minutes.
+//        Has another optional named parameter reminder, defaulting to true.
+
+void sheduleMeeting({
+  required meetingData,
+  duration = "30 min",
+  remainder = true,
+}) {
+  print(
+    "meeting Data : $meetingData, duration : $duration, remainder : $remainder",
+  );
+}
