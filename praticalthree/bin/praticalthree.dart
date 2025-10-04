@@ -167,3 +167,47 @@ void loopTwo() {
 
   print("Number of vowels: $vowelCount");
 }
+
+class IntermediatFunctions {
+  // 1. Write a Dart function named filterEvenNumbers that takes a list of integers and returns a new list containing only the even numbers.
+
+  // 2. Create a function reverseList that takes a list of integers as a parameter and returns the list in reverse order.
+
+  // 3. Write a Dart function named recursiveSum that takes a single integer n and returns the sum of all numbers from 1 to n using recursion.
+
+  // 4. Write a Dart function named removeDuplicates that takes a list of integers and returns a new list with all duplicate elements removed.
+
+  // 5. Create a Dart function named findLargest that takes a list of integers as input and returns the largest number in the list.
+
+  // 6. Write a function sumOfOddNumbers that takes a list of integers as input and returns the sum of all odd numbers in the list.
+
+  // 7. Write a Dart function named calculateAverage that takes a list of integers and returns the average value as a double.
+
+  // 8. Write a Dart function named countVowels that takes a string as input and returns the number of vowels (a, e, i, o, u) in the string.
+
+  // 9. Write a Dart function named sortStringsByLength that takes a list of strings and returns the list sorted in ascending order by string length.
+
+  // 10. Create a function generateCustomMessage that takes a string name and an integer age as parameters and returns a message like "Hello, [name]! You are [age] years old."
+
+  // 11. Write a Dart function named isPalindrome that takes a string as input and returns true if the string is a palindrome, otherwise returns false.
+
+  // 12. Write a Dart function celsiusToFahrenheit that takes a double representing a temperature in Celsius and converts it to Fahrenheit.
+
+  // 13. Create a Dart function named findSecondLargest that takes a list of integers and returns the second largest number in the list.
+
+  // 14. Write a function mergeSortedLists that takes two sorted lists of integers and merges them into a single sorted list.
+
+  // 15. Write a recursive function factorial that calculates the factorial of a given number n.
+}
+
+class ProblemSolving {
+  // 1. Write a function that generates a triangular pattern of numbers using nested for loops.
+
+  // 2. Write a program that takes a list of integers and prints a new list with all numbers replaced by their square roots if they are perfect squares.
+
+  // 3. Use a for loop and if-else to print a pattern of odd and even numbers up to 20.
+
+  // 4. Write a program that takes a list of strings and prints only those strings that are palindromes.
+
+  // 5. Write a function that counts the number of vowels in a given string.
+}
